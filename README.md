@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wilwa-Tikta Rent Frontend
 
-## Getting Started
+Wilwa-Tikta Rent Frontend adalah antarmuka pengguna untuk aplikasi penyewaan online Wilwa-Tikta Rent.
 
-First, run the development server:
+## Fitur Utama
+
+- **Halaman Beranda**: Menampilkan item yang tersedia untuk disewa.
+- **Pencarian dan Filter**: Mencari dan menyaring item berdasarkan kategori dan kriteria lainnya.
+- **Detail Item**: Menampilkan detail item dan opsi untuk melakukan reservasi.
+- **Manajemen Pesanan**: Melihat dan mengelola pesanan pengguna.
+- **Profil Pengguna**: Mengelola informasi profil dan pengaturan akun.
+- **Sistem Ulasan**: Menulis dan membaca ulasan untuk item yang disewa.
+- **Integrasi API**: Menghubungkan dengan backend Wilwa-Tikta Rent untuk mengambil data dan melakukan tindakan.
+
+## Persyaratan
+
+- Node.js (versi terbaru disarankan)
+- NPM (Node Package Manager)
+
+## Instalasi dan Menjalankan Proyek
+
+1. **Clone Repository**
+
+   ```bash
+   git clone https://github.com/ebetap/wilwa-tikta-frontend.git
+   cd wilwa-tikta-frontend
+   ```
+
+2. **Install Dependensi**
+
+   ```bash
+   npm install
+   ```
+
+3. **Konfigurasi**
+
+   Buat file `.env` di root proyek dan tambahkan konfigurasi berikut:
+
+   ```
+   REACT_APP_API_BASE_URL=https://api.wilwatikta.com/api/v1
+   ```
+
+   Sesuaikan `REACT_APP_API_BASE_URL` dengan URL API backend Anda.
+
+4. **Menjalankan Aplikasi**
+
+   Jalankan aplikasi untuk pengembangan:
+
+   ```bash
+   npm start
+   ```
+
+   Aplikasi akan berjalan di `http://localhost:3000`.
+
+5. **Membangun Aplikasi**
+
+   Untuk membangun aplikasi untuk produksi, jalankan:
+
+   ```bash
+   npm run build
+   ```
+
+   Hasil build akan berada di folder `build/`.
+
+## Struktur Proyek
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── components/      # Komponen UI untuk halaman aplikasi
+├── pages/           # Halaman aplikasi seperti Home, Item Detail, User Profile
+├── styles/          # Berkas gaya (CSS/SCSS)
+├── utils/           # Fungsi utilitas dan API helper
+└── App.js           # Entry point untuk aplikasi
+public/
+├── index.html       # Template HTML
+└── favicon.ico      # Ikon aplikasi
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Kontribusi
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Kami menerima kontribusi dari siapa pun yang ingin meningkatkan antarmuka pengguna ini. Untuk kontribusi, silakan buat pull request atau buka isu baru di repository ini.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Lisensi
 
-## Learn More
+Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
-To learn more about Next.js, take a look at the following resources:
+## Kontak
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Jika Anda memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi kami di [beta.priyoko@students.amikom.ac.id](mailto:beta.priyoko@students.amikom.ac.id).
