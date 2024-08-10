@@ -1,89 +1,61 @@
-# Wilwa-Tikta Rent Frontend
+### Wilwa-Tikta Rent Frontend
 
-Wilwa-Tikta Rent Frontend adalah antarmuka pengguna untuk aplikasi penyewaan online Wilwa-Tikta Rent.
+**Wilwa-Tikta Rent Frontend** is the user interface for the Wilwa-Tikta Rent online rental application.
 
-## Fitur Utama
+### Key Features
+- **Homepage:** Displays available rental items.
+- **Search & Filter:** Find items by category and criteria.
+- **Item Details:** View details and make reservations.
+- **Order Management:** Manage user orders.
+- **User Profile:** Manage profile and account settings.
+- **Review System:** Write and read item reviews.
+- **API Integration:** Connects to the backend for data and actions.
 
-- **Halaman Beranda**: Menampilkan item yang tersedia untuk disewa.
-- **Pencarian dan Filter**: Mencari dan menyaring item berdasarkan kategori dan kriteria lainnya.
-- **Detail Item**: Menampilkan detail item dan opsi untuk melakukan reservasi.
-- **Manajemen Pesanan**: Melihat dan mengelola pesanan pengguna.
-- **Profil Pengguna**: Mengelola informasi profil dan pengaturan akun.
-- **Sistem Ulasan**: Menulis dan membaca ulasan untuk item yang disewa.
-- **Integrasi API**: Menghubungkan dengan backend Wilwa-Tikta Rent untuk mengambil data dan melakukan tindakan.
+### Requirements
+- Node.js
+- NPM
 
-## Persyaratan
-
-- Node.js (versi terbaru disarankan)
-- NPM (Node Package Manager)
-
-## Instalasi dan Menjalankan Proyek
-
-1. **Clone Repository**
-
+### Installation & Running
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/ebetap/wilwa-tikta-frontend.git
+   git clone https://github.com/ebetap/wilwatikta-rent-frontend.git
    cd wilwa-tikta-frontend
    ```
-
-2. **Install Dependensi**
-
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
-
-3. **Konfigurasi**
-
-   Buat file `.env` di root proyek dan tambahkan konfigurasi berikut:
-
-   ```
+3. **Configuration:** Create a `.env` file with:
+   ```bash
    REACT_APP_API_BASE_URL=https://api.wilwatikta.com/api/v1
    ```
-
-   Sesuaikan `REACT_APP_API_BASE_URL` dengan URL API backend Anda.
-
-4. **Menjalankan Aplikasi**
-
-   Jalankan aplikasi untuk pengembangan:
-
+4. **Run the Application:**
    ```bash
    npm start
    ```
+   The app will run on `http://localhost:3000`.
 
-   Aplikasi akan berjalan di `http://localhost:3000`.
-
-5. **Membangun Aplikasi**
-
-   Untuk membangun aplikasi untuk produksi, jalankan:
-
+5. **Build for Production:**
    ```bash
    npm run build
    ```
 
-   Hasil build akan berada di folder `build/`.
+### Project Structure
+- `src/`
+  - `components/`: UI components
+  - `pages/`: Application pages
+  - `styles/`: CSS/SCSS files
+  - `utils/`: Utility functions and API helpers
+  - `App.js`: Entry point
+- `public/`
+  - `index.html`: HTML template
+  - `favicon.ico`: App icon
 
-## Struktur Proyek
+### Contribution
+Contributions are welcome. Please create a pull request or open an issue.
 
-```bash
-src/
-├── components/      # Komponen UI untuk halaman aplikasi
-├── pages/           # Halaman aplikasi seperti Home, Item Detail, User Profile
-├── styles/          # Berkas gaya (CSS/SCSS)
-├── utils/           # Fungsi utilitas dan API helper
-└── App.js           # Entry point untuk aplikasi
-public/
-├── index.html       # Template HTML
-└── favicon.ico      # Ikon aplikasi
-```
+### License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-## Kontribusi
-
-Kami menerima kontribusi dari siapa pun yang ingin meningkatkan antarmuka pengguna ini. Untuk kontribusi, silakan buat pull request atau buka isu baru di repository ini.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
-
-## Kontak
-
-Jika Anda memiliki pertanyaan atau membutuhkan bantuan, jangan ragu untuk menghubungi kami di [beta.priyoko@students.amikom.ac.id](mailto:beta.priyoko@students.amikom.ac.id).
+### Contact
+For questions or assistance, contact us at [alwaysworkswithbeta@gmail.com](mailto:alwaysworkswithbeta@gmail.com).
