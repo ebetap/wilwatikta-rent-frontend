@@ -58,4 +58,4 @@ Contributions are welcome. Please create a pull request or open an issue.
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ### Contact
-For questions or assistance, contact us at [alwaysworkswithbeta@gmail.com](mailto:alwaysworkswithbeta@gmail.com).
+For questions or assistance, contact us at [artechspirit@gmail.com](mailto:artechspirit@gmail.com).
